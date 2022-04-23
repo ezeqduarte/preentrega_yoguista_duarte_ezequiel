@@ -46,11 +46,38 @@
         margin: 2% 0%;
 
     }
+
+    .logo {
+        transition: all 200ms;
+    }
+
+    .logo:hover {
+        transform: scale(1.02);
+    }
+
+    li {
+        transition: all 100ms;
+    }
+
+    li:hover {
+        transform: scale(1.02);
+        font-weight: bolder;
+    }
+
+    .fotos_footer {
+        transition: all 100ms;
+    }
+
+    .fotos_footer:hover {
+        transform: scale(1.07);
+    }
+
 }
 
 @media screen and (min-width:1200px) {
     #home {
         padding: 4% 0%;
     }
-   
+  
+
 }
