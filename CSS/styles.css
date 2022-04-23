@@ -70,7 +70,7 @@
 
     #descripcion {
         transition: all 200ms;
-    }    
+    }
 
     #descripcion_home:hover {
         transform: scale(1.4);
@@ -95,11 +95,15 @@
 }
 
 @media screen and (min-width:1200px) {
+    #presentacion {
+        padding: 1.4% 0%;
+    }
+
     #home {
         padding: 4% 0%;
     }
 
-    
+
 
 
 }
