@@ -35,7 +35,11 @@
 }
 
 
-@media screen and (min-width:768px) {}
+@media screen and (min-width:768px) {
+    .textos_sobremi {
+        padding: 4%;
+    }
+}
 
 @media screen and (min-width:992px) {
     #texto_index {
@@ -84,12 +88,18 @@
         transform: scale(1.07);
     }
 
+    #sobremi {
+        padding: 1% 0%;
+    }
+
 }
 
 @media screen and (min-width:1200px) {
     #home {
         padding: 4% 0%;
     }
+
+    
 
 
 }
