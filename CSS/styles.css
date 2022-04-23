@@ -64,6 +64,18 @@
         font-weight: bolder;
     }
 
+    #descripcion {
+        transition: all 200ms;
+    }    
+
+    #descripcion_home:hover {
+        transform: scale(1.4);
+        border: solid;
+        background-color: rgba(255, 255, 255, 0.973);
+        border-radius: 15px;
+    }
+
+
     .fotos_footer {
         transition: all 100ms;
     }
@@ -78,6 +90,6 @@
     #home {
         padding: 4% 0%;
     }
-  
+
 
 }
