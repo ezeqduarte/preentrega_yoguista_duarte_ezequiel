@@ -1,17 +1,49 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor-presentacion {}
+
+.imagen_index {
+    border-radius: 25px;
+}
+
+#texto_index {
+    padding: 3%;
+    margin-top: 15%;
+}
+
+#texto_index_especifico {    
+    margin: 10% 0%;
+}
+
+#texto_index h1 {
+    margin-top: 5%;
+}
+
+#texto_index p {
+    padding: 3%;
+}
 
 
 @media screen and (min-width:576px) {
-
-
+    #texto_index {
+        margin-top: 1%;
+    }
 }
 
 
-@media screen and (min-width:768px) {
-
-
-}
+@media screen and (min-width:768px) {}
 
 @media screen and (min-width:992px) {
+    #texto_index {
+        margin-top: 0%;
+    }
 
-    
+    #texto_index_especifico {
+        margin: 2% 0%;
+        
+    }
 }
+
+@media screen and (min-width:1200px) {}
