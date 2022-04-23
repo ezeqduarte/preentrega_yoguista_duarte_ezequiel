@@ -2,8 +2,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.contenedor-presentacion {}
-
 .imagen_index {
     border-radius: 25px;
 }
@@ -13,7 +11,7 @@
     margin-top: 15%;
 }
 
-#texto_index_especifico {    
+#texto_index_especifico {
     margin: 10% 0%;
 }
 
@@ -23,6 +21,10 @@
 
 #texto_index p {
     padding: 3%;
+}
+
+.imagen_home {
+    border-radius: 25px;
 }
 
 
@@ -42,8 +44,13 @@
 
     #texto_index_especifico {
         margin: 2% 0%;
-        
+
     }
 }
 
-@media screen and (min-width:1200px) {}
+@media screen and (min-width:1200px) {
+    #home {
+        padding: 4% 0%;
+    }
+   
+}
